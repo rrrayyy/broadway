@@ -1,7 +1,6 @@
 html{
   font-family: Helvetica;
   text-align: center;
-  color: white;
 }
 
 nav{
@@ -10,6 +9,7 @@ nav{
 
 h1{
   font-size: 70px;
+  color: white;
 }
 
 h2{
@@ -20,18 +20,17 @@ h3{
   font-size: 23px;
 }
 
-h6{
-  font-size: 11px;
-  background-color: dimgray;
-  text-align: left;
-}
-
 a{
   font-size: 18px;
+  color: white;
 }
 
 p{
   font-size: 14px
+}
+
+h1,h2,h3{
+  font-weight: bold;
 }
 
 h3#subject {
@@ -39,6 +38,10 @@ h3#subject {
   background-image: url("../images/the-flatiron-building.png");
 }
 
-h2,h3,p{
-  color: dimgray;
+footer{
+  font-size: 11px;
+  background-color: dimgray;
+  text-align: left;
+  color: white;
+
 }
